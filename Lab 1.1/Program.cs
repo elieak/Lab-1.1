@@ -18,3 +18,4 @@ namespace Lab1._1
         }
     }
 }
+
