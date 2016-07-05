@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Lab1._1
+namespace Lab_1._1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            string fName = "Elie";
-            string lName = "Karam";
+            const string fName = "Elie";
+            const string lName = "Karam";
 
             Console.WriteLine("Hello, C#");
-            Console.WriteLine("Hello, {0} {1}.", fName, lName);
+            Console.WriteLine($"Hello, {fName} {lName}.");
         }
     }
 }
